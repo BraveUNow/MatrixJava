@@ -5,7 +5,7 @@ public class Matrix
 {
     public int length;
     public int width;
-    private double[][] mat;//内部数组实现
+    private double[][] mat;//implementation using two-dimensional double array
     //Construct the matrix with the length and width of the input matrix
     public Matrix(int m, int n) {
         this.length = m;
